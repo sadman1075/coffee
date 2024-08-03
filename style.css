@@ -22,7 +22,7 @@ nav{
 }
 
 nav h3{
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 900;
     color: white;
 }
@@ -38,7 +38,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 #icon{
     display: none;
@@ -62,7 +62,7 @@ nav ul li:hover{
 }
 
 .banner-title{
-    font-size: 56px;
+    font-size: 60px;
     color: white;
     margin-bottom: 30px;
 }
@@ -89,7 +89,7 @@ nav ul li:hover{
 
 .banner-price{
     color: white;
-    font-size: 1rem;
+    font-size: 1.2rem;
     align-items: center;
 }
 .price{
@@ -101,7 +101,7 @@ nav ul li:hover{
 
 .coffee-title{
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin: 100px 0px 80px 0px;
 }
@@ -123,7 +123,7 @@ nav ul li:hover{
     border-radius: 20px;
 }
 .coffee-description{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: white;
     text-align: justify;
     line-height: 140%;
@@ -142,7 +142,7 @@ nav ul li:hover{
 
 .selling-title{
     color: white;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin: 100px 0px 80px 0px;
 }
@@ -172,7 +172,7 @@ nav ul li:hover{
 .menu-iteam{
     display: flex;
     justify-content: space-between;
-    gap: 100px;
+    gap: 250px;
     align-items: center;
 }
 .menu-img{
@@ -185,13 +185,13 @@ nav ul li:hover{
 }
 .menu-title{
     color: #AF8260;
-    font-size: 40px;
+    font-size: 50px;
     
 }
 
 .menu-price ol li{
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 200%;
 }
 .footer{
