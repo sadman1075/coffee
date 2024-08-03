@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+.font {
+  font-family: "Caveat", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.bg{
+    background-color: black;
+}
+.size{
+    margin:10px 190px 10px 190px;
+    
+   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3{
+    font-size: 36px;
+    font-weight: 900;
+    color: white;
+}
+nav ul{
+    display: flex;
+    gap: 50px;  
+}
+
+nav ul li{
+    list-style: none;
+ 
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+}
+#icon{
+    display: none;
+}
+
+nav ul li a:hover{
+    color:orange;
+   
+}
+nav ul li:hover{
+    transform: translateY(-5px);
+   
+}
+.banner{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    align-items: center;
+   
+}
+
+.banner-title{
+    font-size: 56px;
+    color: white;
+    margin-bottom: 30px;
+}
+.banner-description{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+.banner-img{
+    width: 100%;
+   
+}
+
+.banner-btn{
+    padding: 10px 30px;
+    margin-left: 20px;
+    background-color: 	#9e6f4e;
+    color: white;
+    font-size: 1rem;
+    border: opx;
+    border-radius: 5px;
+}
+
+.banner-price{
+    color: white;
+    font-size: 1rem;
+    align-items: center;
+}
+.price{
+    display: flex;
+    gap: 20px;
+   
+}
+
+
+.coffee-title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 100px 0px 80px 0px;
+}
+
+.coffee{
+    display: flex;
+    gap: 70px;
+    align-items: center;
+
+}
+.coffee-div1{
+    width: 50%;
+}
+.coffee-div2{
+    width: 50%;
+}
+.coffee-img{
+    width: 100%;
+    border-radius: 20px;
+}
+.coffee-description{
+    font-size: 1rem;
+    color: white;
+    text-align: justify;
+    line-height: 140%;
+    
+}
+
+.coffee-card-img{
+    width: 100%;
+ 
+}
+
+.product{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.selling-title{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 100px 0px 80px 0px;
+}
+.selling-card{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.selling-card-img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+
+.selling-price{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.menus{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 100px 0px 80px 0px;
+}
+.menu-iteam{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+.menu-img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+.menu-div1,.menu-div2{
+    width: 50%;
+}
+.menu-title{
+    color: #AF8260;
+    font-size: 40px;
+    
+}
+
+.menu-price ol li{
+    color: white;
+    font-size: 1.2rem;
+    line-height: 200%;
+}
+.footer{
+    color: white;
+    text-align: center;
+    padding: 40px;
+    margin-top: 100px;
+    border-top: 1px solid gray;
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    .size{
+        margin:0px 10px 0px 10px;
+    }
+
+    nav ul li{
+        display: none;
+    }
+   
+    #icon{
+        display: block;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .coffee-div1,.coffee-div2{
+        width: 100%;
+        
+    }
+    .coffee{
+        flex-direction: column;
+    }
+    .product{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .selling-card{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .menu-div1,.menu-div2{
+        width: 100%;
+    }
+    .menu-iteam{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+
+}
+
+
+
